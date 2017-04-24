@@ -1,5 +1,9 @@
 # NOTE: You don't need to edit this code.
 import time
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' #Hide messy TensorFlow warnings
+import warnings
+warnings.filterwarnings("ignore") #Hide messy Numpy warnings
 import tensorflow as tf
 import numpy as np
 from scipy.misc import imread
