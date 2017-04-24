@@ -1,4 +1,3 @@
-# NOTE: You don't need to edit this code.
 import time
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' #Hide messy TensorFlow warnings
